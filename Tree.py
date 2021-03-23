@@ -4,6 +4,7 @@ class BinarySearchTree:
     """
     tree = {}
 
+
     def __init__(self, root):
         self.tree['root'] = root
         self.tree[root] = {'left': None, 'right': None, 'root': None}
